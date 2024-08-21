@@ -1,11 +1,17 @@
 {
+  "homepage": "https://SAIDATTUPUJARI.github.io/Farm-fashions-react",
   "name": "e-commerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
