@@ -1,0 +1,46 @@
+.mencard{
+    background-image: url("../assets2/men.png");
+}
+.catogiries{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    border: 2px solid transparent;
+    border-radius: 4%;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 1rem;
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+button img{
+    border-radius: 10%;
+}
+ @media only screen and (max-width: 600px) {
+    .catogiries{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    button{
+        padding-left: 38%;
+    }
+ }

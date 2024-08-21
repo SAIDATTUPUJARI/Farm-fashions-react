@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+.fourth_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+
+}
+.heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shoes {
+    width: 150px;  
+    height: 150px;   
+}
+
+.shoes img {
+    width: 100%; 
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    .fourth_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ }
+
+
